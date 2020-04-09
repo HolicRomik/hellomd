@@ -159,7 +159,7 @@
 .footer {
 	margin-top: 5px;
 	background-color: red;
-
+	flex-wrap: wrap;
 }
 
 .footer-bottom {
