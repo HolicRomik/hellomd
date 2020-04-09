@@ -160,7 +160,6 @@
 .footer {
 	margin-top: 5px;
 	background-color: red;
-	flex-wrap: wrap;
 }
 
 .footer-bottom {
@@ -176,27 +175,7 @@
 .footer-top {
 	background-color: #222222;
 	display: flex;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-}
-
-.footerbottom-text {
-	color: white;
-	margin-top: 20px;
-	margin-left: 30px;
-}
-
-.bottom-input {
-	margin-top: 5px;
-	background-color: yellow;
-	color: black;
-	font-size: 15px;
-	border: 2px solid yellow;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-
+	justify-content: space-between;
 }
 
 .table {
@@ -206,23 +185,6 @@
 }
 
 .input-bottom {
-	margin-top: 3px;
-}
-
-.barca {
-	color: white;
-	margin-left: 40px;
-	margin-top: 20px;
-}
-
-.submit {
-	background-color: yellow;
-	border: 2px solid yellow;
-	font-size: 15px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px; 
 	margin-top: 3px;
 }
 
