@@ -176,6 +176,7 @@
 	background-color: #222222;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .table {
@@ -193,6 +194,31 @@
 	margin-bottom: 20px;
 	margin-right: 30px;
 	margin-left: 40px;
+}
+
+.input-top {
+	color: white;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.inputfoot {
+	background-color: yellow;
+	border: 2px solid yellow;
+}
+
+.inputfoot {
+	margin-top: 5px;
+	font-size: 15px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.top-input {
+	color: white;
+	margin-top: 20px;
 }
 
 .input-footer {
