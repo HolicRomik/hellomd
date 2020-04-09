@@ -113,7 +113,8 @@
 .main-container {
 	background-color: blue;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 /* block 1 */
@@ -174,6 +175,7 @@
 	background-color: #222222;
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 .footerbottom-text {
